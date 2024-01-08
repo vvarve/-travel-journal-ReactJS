@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Rock+Salt&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 2%;
+    background-color: #f55a5a;
+    place-content: center;
+    color: white;
+}
+
+header > img {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+header > h2 {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+
+.content-div-one {
+    display: grid;
+    grid-template-columns: minmax(100px, max-content) minmax(100px, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    column-gap: 8%;
+    padding: 5%;
+}
+
+.content-div-img-map > img {
+    width: 250px;
+    height: 300px;
+}
+
+.content-des-map > img {
+    width: 18px;
+    height: 20px;
+    border-radius: 300px;
+}
+
+.span-country {
+    margin-left: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a {
+    margin-left: 20px;
+    color: gray;
+}
+
+.h3-site {
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+
+.span-date {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p-description {
+    white-space: normal;
+    font-size: 20px;
+    margin-right: 80px;
+}
+
